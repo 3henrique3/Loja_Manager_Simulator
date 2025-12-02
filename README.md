@@ -64,8 +64,8 @@ CREATE DATABASE loja;
 
 ## *2. Configure o application.yml*
 
-Exemplo recomendado:
-
+Exemplo:
+```
 yaml
 server:
   port: 8080
@@ -82,7 +82,7 @@ spring:
       ddl-auto: update
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
-
+```
 
 # 🚀 *Executando o Projeto*
 
