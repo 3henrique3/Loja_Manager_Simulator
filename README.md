@@ -16,6 +16,7 @@ Foi construído usando:
 
 ## 📂 *Estrutura do Projeto*
 
+```
 src/main/java/com/henrique/loja/ 
 │ 
 ├── controller/ 
@@ -39,7 +40,6 @@ src/main/java/com/henrique/loja/
 │   ├── ProdutoService.java 
 │   └── impl/ 
 │       └── ProdutoServiceImpl.java
-
 ```
 
 ## 🛠 *Tecnologias Utilizadas*
