@@ -104,18 +104,18 @@ A API estará disponível em:
 http://localhost:8080/loja/
 
 
-# 📡 *Endpoints da API*
+## 📡 *Endpoints da API*
 
 Base URL:
 
 http://localhost:8080/loja/produto
 
-## 📌 *1. Criar nova disciplina*
+### 📌 *1. Criar nova disciplina*
 
 ### *POST* /loja/produto
 
 #### Body JSON:
-
+```
 json
 {
   "nome": "Detergente",
@@ -123,24 +123,24 @@ json
   "categoriaProduto": "LIMPEZA",
   "statusProduto": "DISPONIVEL"
 }
+```
 
-
-## 📌 *2. Listar todos os produtos*
+### 📌 *2. Listar todos os produtos*
 
 ### *GET* /loja/produto
 
 
-## 📌 *3. Buscar produto por ID*
+### 📌 *3. Buscar produto por ID*
 
 ### *GET* /loja/produto/{produto_id}
 
 
-## 📌 *4. Atualizar produto (PUT)*
+### 📌 *4. Atualizar produto (PUT)*
 
 ### *PUT* /loja/produto/{produto_id}
 
 #### Body:
-
+```
 json
 {
   "nome": "Salgadinho",
@@ -148,30 +148,30 @@ json
   "categoriaProduto": "ALIMENTACAO",
   "statusProduto": "DISPONIVEL"
 }
+```
 
-
-## 📌 *5. Atualização parcial nome, valor, categoriaProduto e/ou statusProduto (PATCH)*
+### 📌 *5. Atualização parcial nome, valor, categoriaProduto e/ou statusProduto (PATCH)*
 
 ### *PATCH* /loja/produto/{produto_id}
 
 #### Body:
-
+```
 json
 {
   "categoriaProduto": "ELETRONICO"
 }
+```
 
-
-## 📌 *6. Deletar disciplina*
+### 📌 *6. Deletar disciplina*
 
 ### *DELETE* /loja/produto/{produto_id}
 
 Retorno esperado:
-
+```
 204 NO CONTENT
+```
 
-
-# ⌨️ Testando no Postman
+## ⌨️ Testando no Postman
 
 Use os endpoints conforme acima.
 
@@ -183,7 +183,7 @@ Para testar o POST, configure:
 * Insira o JSON do DTO
 
 
-# 📦 *Dependências (pom.xml)*
+## 📦 *Dependências (pom.xml)*
 
 Esse projeto utiliza:
 
