@@ -221,3 +221,6 @@ xml
 *Pedro Henrique*
 
 Projeto de estudo seguindo roadmap Java + Spring Boot.
+
+## 📄 Licença
+Este projeto está licenciado sob a Apache License 2.0 — veja o arquivo LICENSE para mais detalhes.
